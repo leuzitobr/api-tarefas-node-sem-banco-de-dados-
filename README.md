@@ -3,11 +3,11 @@ API REST simples de gerenciamento de tarefas (CRUD) desenvolvida com Node.js e E
 
 Este projeto é uma API REST simples desenvolvida com Node.js e Express, com o objetivo de praticar conceitos fundamentais de back-end como criação de rotas, manipulação de dados e operações CRUD.
 
-🚀 Tecnologias utilizadas
+ Tecnologias utilizadas
 Node.js
 Express
 JavaScript
-📂 Funcionalidades
+ Funcionalidades
 
 A API permite:
 
@@ -34,8 +34,10 @@ O servidor irá rodar em:
 
 http://localhost:3000
 Endpoints
+ 
  Listar tarefas
     GET /tarefas
+ 
  Criar tarefa
     POST /tarefas
 
@@ -44,6 +46,7 @@ Endpoints
   {
     "titulo": "Nova tarefa"
   }
+ 
  Atualizar tarefa
     PUT /tarefas/:id
 
@@ -52,8 +55,10 @@ Endpoints
   {
     "titulo": "Tarefa atualizada"
   }
+ 
  Deletar tarefa
     DELETE /tarefas/:id
+ 
  Observações
 Os dados são armazenados em memória (array), ou seja, são perdidos ao reiniciar o servidor.
 Este projeto tem fins educacionais e de prática.
